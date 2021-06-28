@@ -1,2 +1,7 @@
-# DCTMs
-Supplementary material accompanying the publication of "Deep Conditional Transformation Models" at ECML PKDD 2021 (https://2021.ecmlpkdd.org/)
+### Baumann, Hothorn, Rügamer: Deep Conditional Transformation Models, ECML PKDD 2021
+Supplementary material accompanying the publication of "Deep Conditional Transformation Models" at ECML PKDD 2021 (https://2021.ecmlpkdd.org/). Due to data capacity restrictions not every underlying dataset can be made available here. The following files are contained:
+
+* "DCTM_supplementary_material.pdf" refers to the supplementary material mentioned in the main text of the manuscript.
+* the software used to produce the all DCTM results can be found under https://github.com/davidruegamer/deepregression. The software is still under development.
+* „num_exps“ contain the R code for the specification of the DGPs described in Section 3 and the supplementary material. It also contains the results of the run of the code on a 20-node [HPC](https://scicomp.ethz.ch/wiki/Euler) (CPU) which took approximately 1.5 hours for „1RunSim.R“ and 6.5 hours for „2RunSimBoost.R“. The remaining files inside the folder collect the results, compute the RIMSE and produce Figure 3 in the main text and Figure 1 and 3 in "DCTM_supplementary_material.pdf".
+* „application“ contains the data and code used for the results of the DCTMs and TBMs presented in Section 4, separated by each subsection.
